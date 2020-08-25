@@ -1,6 +1,6 @@
-.text{
-		color:white;
-}
-.body{
+body{
 		background-color:green;
+}
+p.text{
+	color: yellow;
 }
