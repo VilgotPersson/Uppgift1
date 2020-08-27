@@ -1,6 +1,23 @@
 body{
 		background-color:green;
+		color:white;
 }
-p.text{
-	color: yellow;
+h1{
+	font-family:arial;
+	font-size:22px;
+}
+.text{
+	background-color:yellow;
+	color:black;
+	text-align:center;
+}
+.kurs{
+	text-align:right;
+}
+a{
+	text-decoration: none;
+}
+.info{
+	border:6px solid hotpink;
+	border-radius: 10px;
 }
