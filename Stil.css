@@ -2,6 +2,9 @@ body{
 		background-color:green;
 		color:white;
 }
+p.text{
+	color: black;
+}
 h1{
 	font-family:arial;
 	font-size:22px;
@@ -20,4 +23,34 @@ a{
 .info{
 	border:6px solid hotpink;
 	border-radius: 10px;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+.item-a{
+	grid-column: 1;
+	grid-row: 1;
+}
+.item-b{
+	grid-column: 1;
+	grid-row: 4;
+}
+.item-c{
+	grid-column: 2;
+	grid-row: 4;
+}
+.item-d{
+	grid-column: 1;
+	grid-row: 2;
+}
+.item-e{
+	grid-column: 2;
+	grid-row: 2;
+}
+.item-f{
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
 }
